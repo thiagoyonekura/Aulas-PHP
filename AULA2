@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/meuestilo.css">
+    <title>Aula 2</title>
+</head>
+
+<body>
+    <h1 id="titulo"> PHP aula 2</h1>
+    <h2>Lista ordenadas</h2>
+    <ol>
+        <li>Segunda-feira</li>
+        <li>Terça-Feira</li>
+        <li>Quarta-Feira</li>
+        <li>Quinta-Feira</li>
+        <li>Sexta-Feira</li>
+    </ol>
+    <h2>Lista Não ordenada</h2>
+    <ul>
+        <li>Algotitmos</li>
+        <li>Des. SIstemas PHP</li>
+        <li>Pesquisa & Sociedade</li>
+        <li>Análise de Projeto e Sistemas</li>
+        <li>Banco de Dados</li>
+    </ul>
+    <h2>Lista de definição</h2>
+    <dl>
+        <dt>A.</dt>
+        <dd>Assistir as aulas</dd>
+        <dt>B.</dt>
+        <dd>Fazer as atividades</dd>
+        <dt>C.</dt>
+        <dd>Respeito a todos</dd>
+    </dl>
+    <h2>Listas alinhadas</h2>
+    <ol>
+        <li>Segunda-feira</li>
+        <ul>
+            <li>Academia - 6:00</li>
+            <li>Trabalho - 8:00</li>
+            <li>Almoço - 12:30</li>
+        </ul>
+        <li>Terça-Feira</li>
+        <li>Quarta-Feira</li>
+        <li>Quinta-Feira</li>
+        <li>Sexta-Feira</li>
+    </ol>
+    <h2>Links Âncora</h2>
+    <p>
+        Link para o Google: <a href="http://www.google.com" target="_blank">Clique AQUI</a>
+    </p>
+    <p>
+        Link para local da página <a href="#titulo">Clique AQUI para voltar ao topo</a>
+    </p>
+    <a href="#titulo">Clique AQUI para voltar ao topo</a>
+    <div>
+    <h2>Imagens</h2>
+    Este é um parágrafo
+    <figure>
+    <img src="aguia.jpeg" alt="Imagem da aguia">
+    <figcaption>Logo marca</figcaption>
+    </figure>
+    </div>
+</body>
+
+</html>
