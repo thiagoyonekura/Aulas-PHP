@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div>
+        <div class="titulo">
+            <h1>Formulario HTML</h1>
+            <p>Bem vindo ao formulário!</p>
+        </div>
+        <div class="topicos">
+            <h2>Fale Conosco</h2>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome">
+                <p></p>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha">
+                <p></p>
+                <p>Matérias que cursa</p>
+                <label for="php">Des. Sistemas com PHP</label>
+                <input type="checkbox" name="php">
+                <label for="alg">Algoritmos</label>
+                <input type="checkbox" name="alg">
+                <label for="ps">Pesquisa e Sociedade</label>
+                <input type="checkbox" name="ps">
+                <label for="aps">Analise e Projeto de Sistemas</label>
+                <input type="checkbox" name="aps">
+                <label for="bd">Banco de Dados</label>
+                <input type="checkbox" name="bd">
+                <p></p>
+                <label for="periodo">Período que estuda</label>
+                <select name="periodo">
+                    <option value="1">Matutino</option>
+                    <option value="2">Vespertino</option>
+                    <option value="3">Noturno</option>
+                    <option value="4">Integral</option>
+                </select>
+                <p></p>
+                <label for="estuda">Tem tempo de estudo fora de sala?</label>
+                <p></p>
+                Sim <input type="radio" name="estuda">
+                Não <input type="radio" name="estuda">
+                <p></p>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
