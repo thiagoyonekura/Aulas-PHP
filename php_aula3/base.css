@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    background-color: #d6cbd3;
+    text-align: center;
+    margin: 5%;
+    height: 90px;
+    padding: 5%;
+}
+
+.topicos{
+    border-style: ridge;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10px;
+}
