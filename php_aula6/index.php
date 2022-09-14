@@ -9,12 +9,16 @@
 <body>
     <div>
         <h1>Formulário soma</h1>
+        <p>Escreva um programa PHP para calcular a 
+            soma dos dois valores inteiros fornecidos. 
+            Se os dois valores forem iguais, 
+            retornará o triplo de sua soma;</p>
         <form action="resultado1.php" method="post">
             Valor 1
-            <input type="number" name="valor1">
+            <input type="number" name="valor1" default=0>
             <p></p>
             valor 2
-            <input type="number" name="valor2">
+            <input type="number" name="valor2" default=0>
             <p></p>
             <input type="submit" value="Salvar">
         </form>
@@ -31,3 +35,5 @@
     </div>
 </body>
 </html>
+
+
