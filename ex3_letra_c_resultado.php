@@ -11,7 +11,7 @@
     <h2>Exercício 3 - Letra C</h2>
     <?php
     $nome = $_POST["nome"];
-    $sexo = $_POST["sexo"];
+    $sexo = $_POST["genero"];
     $idade = $_POST["idade"];
     if($idade>25){
         echo "Prezado(a): $nome, gênero: $sexo, você pode se cadastrar.";
