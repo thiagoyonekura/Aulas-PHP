@@ -14,8 +14,9 @@
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome">
         <p></p>
-        <label for="sexo">Sexo(M ou F)</label>
-        <input type="sex" id="sexo" name="sexo">
+        <label for="genero">Gênero</label>
+        <input type="radio" name="genero" value="Masculino">Masculino
+        <input type="radio" name="genero" value="Feminino">Feminino
         <p></p>
         <label for="idade">Idade:</label>
         <input type="number" id="idade" name="idade">
