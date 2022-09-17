@@ -9,7 +9,7 @@ body {
 #titulo{
     text-align: center;
     background-color: #0c4415;
-    -webkit-text-stroke: 1px #00f800;
+    -webkit-text-stroke: .5px #00f800;
 }
 
 a.atendimento:link {
