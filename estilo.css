@@ -1,13 +1,15 @@
 body {
     background-color: #bccad6;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: px;
     padding: 30px 0px;
+    
 }
 
 #titulo{
     text-align: center;
-    background-color: #0e3815;
+    background-color: #0c4415;
+    -webkit-text-stroke: 1px #00f800;
 }
 
 a.atendimento:link {
@@ -73,7 +75,7 @@ nav#menu ul {
 
 nav#menu li {
     display: inline-block;
-    background: #86c089;
+    background: #77e06d;
     margin: 2px;
     transition: background-color 1s;
 }
@@ -96,4 +98,39 @@ nav#menu a {
 nav#menu li:hover a {
     color: white;
     text-decoration: underline;
+}
+#quemSomos{
+    background-color: #107c10;
+    border-style: double;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+}
+#produtos{
+    background-color: #107c10;
+    border-style: double;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+}
+#nossaHistoria{
+    background-color: #107c10;
+    border-style: double;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+}
+#servicos{
+    background-color: #107c10;
+    border-style: double;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+}
+#equipe{
+    background-color: #107c10;
+    border-style: double;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
 }
