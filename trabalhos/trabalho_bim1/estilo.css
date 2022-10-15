@@ -1,0 +1,136 @@
+body {
+    background-color: #bccad6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: px;
+    padding: 30px 0px;
+    
+}
+
+#titulo{
+    text-align: center;
+    background-color: #0c4415;
+    -webkit-text-stroke: .5px #00f800;
+}
+
+a.atendimento:link {
+    color: green;
+    text-decoration: underline;
+}
+
+a.atendimento:visited {
+    color: indigo;
+    text-decoration: underline;
+}
+
+a.atendimento:hover {
+    color: darkgreen;
+    text-decoration: underline;
+    font-size: 120%;
+}
+
+a.atendimento:active {
+    color: #00ff00;
+    text-decoration: underline;
+    background-color: darkgreen;
+}
+
+a.login:link {
+    color: green;
+    text-decoration: underline;
+    background-color: lightgreen;
+}
+
+a.login:visited {
+    color: indigo;
+    text-decoration: underline;
+}
+
+a.login:hover {
+    color: darkgreen;
+    text-decoration: underline;
+    font-size: 120%;
+}
+
+a.login:active {
+    color: #00ff00;
+    text-decoration: underline;
+    background-color: darkgreen;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: -20;
+    left: 15px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background: #77e06d;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #0e3815;
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: solid;
+    display: inline-block;
+    padding: 10px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+nav#menu li:hover a {
+    color: white;
+    text-decoration: underline;
+}
+#quemSomos{
+    background-color: #107c10;
+    border-style: double;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+}
+#produtos{
+    background-color: #107c10;
+    border-style: double;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+}
+#nossaHistoria{
+    background-color: #107c10;
+    border-style: double;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+}
+#servicos{
+    background-color: #107c10;
+    border-style: double;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+}
+#equipe{
+    background-color: #107c10;
+    border-style: double;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+}

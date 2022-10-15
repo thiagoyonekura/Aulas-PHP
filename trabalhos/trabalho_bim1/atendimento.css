@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(207, 226, 207);
+}
+.titulo{
+    color: black;
+    text-align: center;
+    background-color: #0c4415;
+    -webkit-text-stroke: .5px #00f800;
+}
