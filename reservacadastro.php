@@ -23,6 +23,9 @@
           <label for="data">Data</label>
         <input type="date" name="data" id="data">
         <p></p>
+        <label for="hora">Hora</label>
+        <input type="text" name="hora">
+        <p></p>
         <label for="qtdpessoa">Quantidade de pessoas</label>
         <select name="qtdpessoa" id="qtdpessoa">
             <option value="1">1 pessoa</option>
@@ -46,9 +49,6 @@
             <option value="19">19 pessoas</option>
             <option value="20">20 pessoas</option>
         </select>
-        <p></p>
-        <label for="horario">Data e Hora</label>
-        <input type="datetime-local" name="horario" id="horario">
         <p></p>
         <label for="ocasiao">Ocasião</label>
         <input type="text" name="ocasiao" placeholder="exemplo: aniversário, confraternização,...">
